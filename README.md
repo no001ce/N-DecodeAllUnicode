@@ -12,4 +12,4 @@ Burpsuite插件：自动解码Burpsuite中被Unicode编码的内容（unicode ->
 3、解码成功的内容前后会自动加上【--u--】，个人感觉看起来不太习惯，修改后插件只做解码操作，不留下任何标记。
 
 ## 文档
-[Burpsuite Unicode解码插件修改](https://www.yuque.com/shhsjar/blog/hl02qk)
+[Burpsuite Unicode解码插件修改](https://www.yuque.com/no001ce/blog/hl02qk)
