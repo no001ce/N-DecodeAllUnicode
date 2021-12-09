@@ -55,7 +55,7 @@ class BurpExtender(IBurpExtender, IHttpListener):
                 body = response[analyzedResponse.getBodyOffset():]
                 body_string = body.tostring()
                 # print(body_string)
-                u_char_escape = re.findall(r'\\u[a-z0-9]{4}', body_string)
+                u_char_escape = re.findall(r'\\u[a-z0-9A-Z]{4}', body_string)
                 u_char_escape = list(set(u_char_escape))
                 if u_char_escape:
                     for i in u_char_escape:
